@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">  
+    <!--links my seperate CSS style sheet. style contained in header for this repositry-->
+    <link rel="stylesheet" src="css/home.css">
+    <style>
+        body {
+          font-family: 'ZCOOL QingKe HuangYou', cursive;
+          color: lightgray;
+          margin-left: 20px;
+          background-color: #333;
+          width: 90%
+        }
+        .navbar li{
+          list-style: none;
+          display: inline;
+          padding: 10px;
+        }
+        #hdr {
+          outline: 4px outset darkred;
+          font-size: 3rem;
+        } 
+        a {
+          color: orange;
+        }
+        a:hover{
+          color: yellow;
+        }
+        a:active {
+          color: red;
+        }
+        p {
+          font-family: 'Titillium Web', sans-serif;
+        }
+        r {
+          color: red;
+          font-weight: bold;
+        }
+        y {
+          color: yellow;
+          font-weight: bold;
+        }
+        o {
+          color: orange;
+          font-weight: bold;
+        }
+        g {
+          color: green;
+          font-weight: bold;
+        }
+        c {
+          color: cyan;
+          font-weight: bold;
+        }
+        b {
+          color: blue;
+          font-weight: bold;
+        }
+        pr {
+          color: purple;
+          font-weight: bold;
+        }
+        w {
+          color: white;
+          font-weight: bold;
+        }
+        bk {
+          color: black;
+          font-weight: bold;
+        }
+        lo {
+          color: coral;
+        }
+    </style>
+</head>
+
+<body>
+  	<h1 id="hdr"><o>DANGER!</o> <y>Music Theory</y></h1>
+  	<div class="navbar">
+		<ul>
+            <!--home and lesson tabs link to my code pen pages for now-->
+			<li><a href="https://codepen.io/jimmy-mcbride/pen/EGzObz">Home</a></li>
+			<li><a href="https://codepen.io/jimmy-mcbride/pen/GPLezy?editors=1100">Lessons</a></li>
+    </ul>
+  	</div>
+  	<h2><lo>What is</lo> <o>DANGER!</o> <y>Music Theory?</y></h2>
+  	<p>Are you ready to take a dive into the deep end? Are you ready to explore the world hidden inside your fretboard? Well look no further, friend. <o>DANGER!</o> <y>Music Theory </y>is all about applying music theory to your fretboard and playing in real situations so you can improve like Steve Via or Santana in no time!</p>
+  	<h2><lo>Are you ready?</lo></h2>
+  	<p><o>DANGER!</o> <y>Music Theory</y> may be for players of any skill level, but it is not for the faint of heart. So even if you're a novice, if you put you the time and dedication in, the tutorials on this site can help you take you're playing to the next level! For a free intro lesson <span id="clickhere"><a href="https://codepen.io/jimmy-mcbride/pen/maQwRa?editors=1100">click here</a></span> or check out our lessons tab to get started!</p>
+</body>
+</html>
