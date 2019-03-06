@@ -1,67 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 body {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  color: lightgray;
-  margin-left: 20px;
-  background-color: #333;
-  width: 90%
+  background-color: #173F5F;
+  width: 1000px;
+  margin: 0 auto;
 }
-.navbar li{
-  list-style: none;
+header {
+  width: 1000px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  border: 2px outset #555;
+  background: #2F2F34;
+  
+}
+header div {
+  margin-top: 2px;
+  
+}
+header h2 {
   display: inline;
-  padding: 10px;
+
+  font-size: 26px;
+  font-family: 'Major Mono Display', monospace;
 }
-#hdr {
-  outline: 4px outset darkred;
-  font-size: 3rem;
-} 
+nav {
+  
+  margin-top: 7px;
+  
+}
+nav a {
+  text-decoration: none;
+  font-family: 'Overpass Mono', monospace;  
+  padding: 5px 15px;
+  margin-left: 2px;
+  background: #F6D55C;
+  color: #ED553B;
+  border: 3px outset #ED553B;
+}
+
+nav a:hover {
+  color: #FFE97F;
+  background: #ED553B;
+  border: 3px outset #FFE97F;
+}
+.image {
+  background-image: url("https://i.pinimg.com/originals/dd/62/b5/dd62b5590fb5d1545be4a0cdb5b0f346.jpg");
+  width: 570px;
+  height: 382px;
+  display: block;
+  margin: 0 auto;
+}
+.text {
+  margin-top: 25px;
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  color: #F0FFFF;
+  font-family: 'B612 Mono', monospace;
+  font-size: 13px;
+}
+.text h2 {
+  color: SteelBlue;
+  font-size: 25px;
+  font-family: 'Major Mono Display', monospace;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text h1 {
+  font-size: 60px;
+  margin: 60px 0 30px 0;
+}
+footer {
+  color: #00BFFF;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
 a {
-  color: orange;
+  text-decoration: none;
+  color: #00FFFF;
 }
-a:hover{
-  color: yellow;
-}
-a:active {
-  color: red;
-}
-p {
-  font-family: 'Titillium Web', sans-serif;
-}
-r {
-  color: red;
-  font-weight: bold;
-}
-y {
-  color: yellow;
-  font-weight: bold;
+a:hover {
+  color: #F6D55C;
 }
 o {
-  color: orange;
-  font-weight: bold;
+  color: #ED553B;
+  font-family: 'Major Mono Display', monospace;
 }
-g {
-  color: green;
-  font-weight: bold;
-}
-c {
-  color: cyan;
-  font-weight: bold;
-}
-b {
-  color: blue;
-  font-weight: bold;
-}
-pr {
-  color: purple;
-  font-weight: bold;
-}
-w {
-  color: white;
-  font-weight: bold;
-}
-bk {
-  color: black;
-  font-weight: bold;
-}
-lo {
-  color: coral;
+y {
+  color: #F6D55C;
+  font-family: 'Major Mono Display', monospace;
 }
