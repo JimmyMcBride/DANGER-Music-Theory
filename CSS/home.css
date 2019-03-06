@@ -5,25 +5,49 @@
 }
 body {
   background-color: #173F5F;
-  width: 100%
+  width: 1000px;
+  margin: 0 auto;
 }
 header {
-  margin-top: 40px;
-  font-size: 2rem;
+  width: 1000px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  border: 2px outset #555;
+  background: #2F2F34;
+  
 }
-header h1 {
-  text-align: center;
+header div {
+  margin-top: 2px;
+  
+}
+header h2 {
+  display: inline;
+
+  font-size: 26px;
   font-family: 'Major Mono Display', monospace;
 }
 nav {
-  margin-top: 40px;
-  text-align: center;
+  
+  margin-top: 7px;
+  
 }
-nav li {
+nav a {
   text-decoration: none;
-  display: inline;
   font-family: 'Overpass Mono', monospace;  
-  padding: 30px;
+  padding: 5px 15px;
+  margin-left: 2px;
+  background: #F6D55C;
+  color: #ED553B;
+  border: 3px outset #ED553B;
+}
+
+nav a:hover {
+  color: #FFE97F;
+  background: #ED553B;
+  border: 3px outset #FFE97F;
 }
 .image {
   background-image: url("https://i.pinimg.com/originals/dd/62/b5/dd62b5590fb5d1545be4a0cdb5b0f346.jpg");
@@ -36,7 +60,7 @@ nav li {
   margin-top: 25px;
   display: block;
   margin: 0 auto;
-  width: 60%;
+  width: 1000px;
   text-align: center;
   color: #F0FFFF;
   font-family: 'B612 Mono', monospace;
@@ -46,8 +70,12 @@ nav li {
   color: SteelBlue;
   font-size: 25px;
   font-family: 'Major Mono Display', monospace;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text h1 {
+  font-size: 60px;
+  margin: 60px 0 30px 0;
 }
 footer {
   color: #00BFFF;
